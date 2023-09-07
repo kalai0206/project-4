@@ -9,8 +9,8 @@ res.then((data)=>data.json()).then((data1)=>{
         <div class="card-body">
           <h5 class="card-text">Name:${data1[0].name}</h5>
           <p class="card-text">Email:${data1[0].email}</p>
-          <p class="card-text">Street:${data1[0].street}</p>
-          <p class="card-text">City:${data1[0].city}</p>
+          <p class="card-text">Street:${data1[0].address.street}</p>
+          <p class="card-text">City:${data1[0].address.city}</p>
         </div>
       </div>
     </div>`
