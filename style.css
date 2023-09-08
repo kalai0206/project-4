@@ -20,3 +20,6 @@ body{
     height: 300px;
     background-color:rgb(132, 223, 223)!important;
 }
+.container{ 
+    text-align:initial!important;
+}
